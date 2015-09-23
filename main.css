@@ -1,12 +1,41 @@
-.octodex {
+* {
   list-style: none;
+}
+
+.octocat {
+  display: inline-block;
+}
+
+.image-footer {
+  border-bottom: 1px solid lightgrey;
+  margin: 50px;
+}
+
+.image-number, .image-caption {
+  color: lightgrey;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.image-caption {
+  float: right;
 }
 
 .octocat img {
   border: 1px solid lightgrey;
+  margin: 20px;
+  margin-left: 20px;
+  max-width: 30%;
+  border-radius: 5px;
 }
 
-.image-number, .image-caption, .authors {
-  border-bottom: 1px solid lightgrey;
+.image-caption a {
+  color: black;
+  text-decoration: none;
 }
 
+.authors img {
+  width: 28px;
+  height: 28px;
+  margin: 2px;
+}
