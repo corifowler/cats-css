@@ -16,17 +16,6 @@
   overflow:auto;
 }
 
-.octocat::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 10px 10px 0 10px;
-  border-color: #babec2 transparent transparent transparent;
-  position: absolute;
-  float: right;
-}
-
 .octocat img {
   border: 1px solid lightgrey;
   margin: 5px;
@@ -77,4 +66,14 @@
 
 ul {
   padding: 0;
+}
+
+.octocat::after {
+  content:"";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #babec2 transparent transparent transparent;
+  margin-left: 350px;
 }
