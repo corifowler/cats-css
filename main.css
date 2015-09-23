@@ -2,10 +2,15 @@
   list-style: none;
 }
 
+.octocat {
+  position: relative;
+  margin: 0;
+  display: inline-block;
+}
+
 .image-footer {
   border-bottom: 1px solid lightgrey;
   margin: 50px;
-  float: left;
 }
 
 .image-caption {
@@ -16,8 +21,7 @@
   border: 1px solid lightgrey;
   margin: 5px;
   padding: 10px;
-  margin-left: 20px;
-  max-width: 30%;
+  width: 350px;
   border-radius: 5px;
 }
 
