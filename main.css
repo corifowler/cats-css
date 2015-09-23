@@ -6,15 +6,14 @@
   position: relative;
   margin: 0;
   display: inline-block;
+  overflow: auto;
 }
 
 .image-footer {
   border-bottom: 1px solid lightgrey;
-  margin: 50px;
-}
-
-.image-caption {
-  float: right;
+  max-width: 400px;
+  margin: 5px;
+  overflow:auto;
 }
 
 .octocat img {
@@ -25,10 +24,15 @@
   border-radius: 5px;
 }
 
+.image-number {
+  float: left;
+}
+
 .image-number, .image-caption {
   color: lightgrey;
   font-weight: bold;
   font-family: sans-serif;
+  display: inline-block;
 }
 
 .image-caption a {
@@ -36,9 +40,26 @@
   text-decoration: none;
 }
 
+.image-caption {
+  float: right;
+  display: inline;
+}
+
+.authors {
+  display: inline-block;
+  overflow:hidden;
+  float: right;
+}
+
 .authors img {
   width: 28px;
   height: 28px;
   margin: 2px;
+  padding:0;
+  border: none;
+  float: left;
+}
+
+ul {
   padding: 0;
 }
