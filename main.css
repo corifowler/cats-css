@@ -1,0 +1,12 @@
+.octodex {
+  list-style: none;
+}
+
+.octocat img {
+  border: 1px solid lightgrey;
+}
+
+.image-number, .image-caption, .authors {
+  border-bottom: 1px solid lightgrey;
+}
+
