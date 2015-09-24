@@ -69,6 +69,7 @@ ul {
 }
 
 .octocat::after {
+  position: absolute;
   content:"";
   width: 0;
   height: 0;
@@ -76,4 +77,6 @@ ul {
   border-width: 10px 10px 0 10px;
   border-color: #babec2 transparent transparent transparent;
   margin-left: 350px;
+  bottom: 45px;
+  right: 8px;
 }
